@@ -1,0 +1,13 @@
+<form class="contact-us-form" action="/send-message" method="POST">
+    <label class="contact-form-label" for="name">Name:<span class="contact-form-required">*</span></label>
+    <input class="contact-form-text" type="text" id="name" name="name" required>
+    <label class="contact-form-label" for="email">Email:<span class="contact-form-required">*</span></label>
+    <input class="contact-form-text email" type="email" id="email" name="email" required>
+
+    <label class="contact-form-label" for="phone">Phone Number (optional):</label>
+    <input class="contact-form-text tel" type="tel" id="phone" name="phone">
+
+    <label class="contact-form-label" for="message">Message:<span class="contact-form-required">*</span></label>
+    <textarea class="contact-form-text textarea" id="message" name="message" rows="5" required></textarea>
+    <button class="primary-button contact-us-form" type="submit">Send Message</button>
+</form>
